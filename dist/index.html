@@ -4,22 +4,28 @@
     <head>
         <meta charset="utf-8">
         <title>Skeleton Framework Test File</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="inline-size=device-height, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="skeleton.css">
         <link rel="icon" type="image/png" href="images/favicon.png">
 
         <style>
+            html{
+              writing-mode: vertical-lr;
+              }
+            a, u {
+              text-decoration: overline;
+            }
             .demo-col {
-                padding-top: 1em;
-                padding-bottom: 1em;
+                padding-block-start: 1em;
+                padding-block-end: 1em;
                 background-color: #0074D9;
                 color: #fff;
                 text-align: center;
             }
 
             .demo-row {
-                margin-bottom: 1rem;
+                margin-block-end: 1rem;
             }
 
             .nested {
@@ -31,9 +37,9 @@
 
     <body>
 
-        <div class="container">
-            <div class="row">
-                <div class="twelve columns">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
                 <h1>Skeleton Framework</h1>
                 <hr>
             </div>

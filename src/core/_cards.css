@@ -2,11 +2,12 @@
 
 .card {
   border: 1px solid var(--card-border);
-  padding: 10px 25px;
+  padding-block: 10px;
+  padding-inline: 25px;
   border-radius: 4px;
   box-shadow: 1px 1px 1px var(--card-shadow);
-  min-height: 160px;
-  margin-bottom: 1rem;
+  min-block-size: 160px;
+  margin-block-end: 1rem;
 }
 
 .card h1,
@@ -16,7 +17,7 @@
 .card h5,
 .card h6,
 .card p {
-  margin-bottom:1.2rem;
+  margin-block-end:1.2rem;
 }
 
 a.card {

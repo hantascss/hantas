@@ -1,10 +1,11 @@
 .alert {
-  width: 100%;
+  inline-size: 100%;
   border-radius: var(--border-radius);
   border: var(--alert-border);
   color: var(--alert-font-color);
   background-color: var(--alert-background-color);
-  padding: 10px 15px;
+  padding-block: 10px;
+  padding-inline: 15px;
 }
 
 .alert.alert-primary {

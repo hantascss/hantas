@@ -1,8 +1,8 @@
 :root {
 
   --total-columns: 12;
-  --column-width: calc(100% / var(--total-columns));
-  --max-width: 1200px;
+  --column-inline-size: calc(100% / var(--total-columns));
+  --max-inline-size: 1200px;
   --gutter: 1rem;
 
   --font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
