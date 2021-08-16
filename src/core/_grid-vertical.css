@@ -94,7 +94,7 @@
   margin-block-start: 0;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-height: 560px) {
   [class*='column'] ~ [class*='column'] {
     margin-block-start: 0;
   }
@@ -257,7 +257,7 @@
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-height: 720px) {
   .md-one[class*='column'] {
     inline-size: calc((var(--column-inline-size) * 1));
   }
@@ -340,7 +340,7 @@
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-height: 960px) {
   .lg-one[class*='column'] {
     inline-size: calc((var(--column-inline-size) * 1));
   }

@@ -7,22 +7,22 @@
 * buttons section and style it there.
 *****/
 
-@media (min-width: 400px) {
+@media (min-height: 400px) {
   /* Larger than mobile */
 }
 
-@media (min-width: 560px) {
+@media (min-height: 560px) {
   /* Larger than phablet (also point when grid becomes active) */
 }
 
-@media (min-width: 720px) {
+@media (min-height: 720px) {
   /* Larger than tablet */
 }
 
-@media (min-width: 960px) {
+@media (min-height: 960px) {
   /* Larger than desktop */
 }
 
-@media (min-width: 1200px) {
+@media (min-height: 1200px) {
   /* Larger than Desktop HD */
 }
