@@ -7,7 +7,7 @@
         <meta name="viewport" content="inline-size=device-height, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="hantas-vertical.css">
-        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
         <style>
             html{writing-mode: vertical-rl;}
@@ -27,7 +27,6 @@
                 background-color: #001f3f;
             }
         </style>
-
     </head>
 
     <body>
@@ -769,5 +768,33 @@
                     <br>
 
                 </body>
+<script>
+window.onload = function() {
+	var mousewheelevt = (/Firefox/i.test(navigator.userAgent))
+		?"DOMMouseScroll" : "mousewheel";
+	if(document.attachEvent) {
+		document.attachEvent("on" + mousewheelevt, function(e){
+			mousewheel_event(e.wheelDelta);
+		});
+	}else if(document.addEventListener) {
+		document.addEventListener(mousewheelevt, function(e){
+			mousewheel_event(e.detail);
+		}, false);
+	}
 
+	var scroll_width = 100;
+	function mousewheel_event(delta) {
+
+		if(delta > 0) {
+			document.getElementsByTagName("html")[0].scrollLeft
+				-= scroll_width;
+		}
+
+		else {
+			document.getElementsByTagName("html")[0].scrollLeft
+				+= scroll_width;
+		}
+	}
+};
+</script>
             </html>

@@ -1,16 +1,15 @@
 {
-  "name": "skeleton-framework",
+  "name": "hantas",
   "description": "A simple responsive framework for mobile friendly development.",
-  "main": "dist/skeleton.css",
-  "authors": "Gary DeLaney <gld1982ltd@gmail.com>",
+  "main": "dist/hantas.css",
+  "authors": "Huang Feilong <hfl@huangfeilong.com>",
   "license": "MIT",
   "keywords": [
     "css",
     "framework",
-    "skeleton",
-    "skeleton-framework"
+    "hantas"
   ],
-  "homepage": "https://github.com/skeleton-framework/skeleton-framework",
+  "homepage": "https://github.com/hantascss/hantas",
   "ignore": [
     "*",
     "!dist/*"

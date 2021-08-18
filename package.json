@@ -1,16 +1,12 @@
 {
-  "name": "skeleton-framework",
-  "version": "1.1.1",
+  "name": "Hantas",
+  "version": "0.5.1",
   "license": "MIT",
-  "homepage": "https://github.com/skeleton-framework/skeletonframework#readme",
+  "homepage": "https://github.com/hantascss/hantas#readme",
   "description": "A simple responsive framework for mobile friendly development.",
-  "author": "Skeleton Framework",
+  "author": "Hantas",
   "contributors": [
-    "Dave Gamache",
-    "Gary DeLaney",
-    "Ben Hinchley",
-    "Nick Lorenson",
-    "Daniel Oltmanns"
+    "Huang Feilong"
   ],
   "main": "index.js",
   "scripts": {
@@ -26,16 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/skeleton-framework/skeleton-framework.git"
+    "url": "https://github.com/hantascss/hantas.git"
   },
   "bugs": {
-    "url": "https://github.com/skeleton-framework/skeleton-framework/issues"
+    "url": "https://github.com/hantascss/hantas/issues"
   },
   "keywords": [
     "css",
     "framework",
-    "skeleton",
-    "skeleton-framework"
+    "hantas"
   ],
   "devDependencies": {
     "live-server": "^1.2.1",
