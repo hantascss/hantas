@@ -2,7 +2,9 @@
   "name": "hantas",
   "description": "A simple responsive framework for mobile friendly development.",
   "main": "dist/hantas.css",
-  "authors": "Huang Feilong <hfl@huangfeilong.com>",
+  "authors": [
+    "Huang Feilong <hfl@huangfeilong.com>"
+  ],
   "license": "MIT",
   "keywords": [
     "css",
@@ -12,6 +14,11 @@
   "homepage": "https://github.com/hantascss/hantas",
   "ignore": [
     "*",
-    "!dist/*"
+    "!dist/*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ]
 }
